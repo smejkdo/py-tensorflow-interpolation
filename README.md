@@ -1,0 +1,3 @@
+# Interpolating video frames using artificial neural networks
+
+Two implementations of interpolation using python library tensorlow. File interpolating_video.ipynb loads a real life video and interpolates it using GAN, CNN or U-Net. interpolating_animated.ipynb contains only U-Net network, as it proved to be significantly more succesful in the first implementation. This implementation adds animated video as input to interpolate. Both are independent implementations, so i could run one on Google Colab and the other on my GPU.
